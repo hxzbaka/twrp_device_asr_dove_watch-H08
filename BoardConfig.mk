@@ -34,7 +34,7 @@ TARGET_NO_BOOTLOADER := true
 
 # Kernel
 BOARD_KERNEL_BASE := 0x10000000
-BOARD_KERNEL_CMDLINE := androidboot.hardware=dove_watch firmware_class.path=/vendor/firmware loglevel=0 no_console_suspend
+BOARD_KERNEL_CMDLINE := androidboot.hardware=dove_watch firmware_class.path=/vendor/firmware loglevel=0 no_console_suspend androidboot.selinux=permissive
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_RAMDISK_OFFSET := 0x01000000
 BOARD_KERNEL_TAGS_OFFSET := 0x00000100
